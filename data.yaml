@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Person', 'Hardhat', 'Safety Vest', 'NO-Hardhat', 'NO-Safety Vest']
+
+roboflow:
+  workspace: linglong-hmljj
+  project: hardhat-fnddc
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/linglong-hmljj/hardhat-fnddc/dataset/1
